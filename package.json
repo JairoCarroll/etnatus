@@ -1,0 +1,43 @@
+{
+  "name": "etnatus",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairoCarroll/etnatus.git"
+  },
+  "author": "WillardDouglas",
+  "license": "APACHE",
+  "readme": "README.md",
+  "bin": {
+    "ts-repl": "./ts-repl"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "parse-json": "^6.0.2",
+    "pretty-repl": "^3.1.1",
+    "tsconfig-paths": "^3.12.0"
+  },
+  "peerDependencies": {
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.32",
+    "husky": ">=7",
+    "lint-staged": ">=12",
+    "prettier": "2.6.2",
+    "type-fest": "2.8.0",
+    "typescript": "4.6.4"
+  },
+  "lint-staged": {
+    "*.{js,css,md,json,yml}": "yarn format"
+  },
+  "bugs": {
+    "url": "https://github.com/JairoCarroll/etnatus.git/issues"
+  },
+  "homepage": "https://github.com/JairoCarroll/etnatus.git"
+}
